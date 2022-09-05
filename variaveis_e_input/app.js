@@ -5,8 +5,9 @@ const readLine = require('readline').createInterface({
 const minhaPrimeiraString = 'Primeira constante';
 console.log(minhaPrimeiraString);
 let leituraDeCampo;
-readLine.question('Informe sua idade', input => {
+let teste = 'teste';
+readLine.question('Informe sua idade:', input => {
     leituraDeCampo = input;
-    console.log(`o usuario digitou: ${leituraDeCampo}`);
+    console.log(`o usuario digitou: ${leituraDeCampo} e nossa variavel teste é: ${teste}`);
 });
 
